@@ -19,10 +19,10 @@ For a Spark Executor to run a Python UDF, it must:
 * wait for the Python process to deserialize the data, run the UDF on it,
   reserialize the data, and send it back.
 
-By contrast, a Hive UDF, whether written in Scala or Java, can be executed
-in the Executor JVM, _even if the DataFrame logic is in Python_.
+By contrast, a Hive UDF, whether written in Scala or Java, can be *executed
+in the Executor JVM*, _even if the DataFrame logic is in Python_.
 
-There's really only one drawback: a Hive UDF _must_ be invoked via SQL.
+There's really only one drawback: a Hive UDF _must_ be *invoked via SQL*.
 You can't call it as a function from the DataFrame API.
 
 ## Building
