@@ -1,4 +1,4 @@
-# Sample Hive UDF project
+# Sample Hive UDF project - demonstration
 
 ## Introduction
 
